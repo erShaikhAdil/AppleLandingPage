@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Josefin Sans,sans-serif !important;
+    padding-top:4%;
+width: 100%;
+}
+
+.imgwidth{
+    width: 40%;
+}
+
+.imgnav{
+    width: 4%;
+}
+
+#announcement{
+    background-color: #e44140;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 10px 12px 10px;
+}
+
+#red-apple img{
+    width: 70px;
+    padding: 10px 10px 10px 10px;
+}
+
+#red-apple{
+    text-align: center;
+}
+#red-apple h1{
+    font-size: 50px;
+}
+.gift-images{
+    text-align: center;
+}
+.gift-images img{
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    animation: rotate 1.5s linear ;
+    transform: rotate(4deg);
+}
+
+
+#gift-sec{
+    background-color: #eeeffe;
+    height: 100vh;
+    margin-bottom: 5px;
+
+}
+/** iphone 13 pro scetion**/
+
+#iphone13pro{
+    text-align: center;
+    background-image: url(appleimages/iphone13-pro-large.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin: 5px 0px 5px 0px;
+}
+
+
+/**iphone 13**/
+#iphone13{
+    text-align: center;
+    background-image: url("appleimages/iphone13-large.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    margin: 5px 0px 5px 0px;
+}
+.iphonepadding{
+    font-size: 50px;
+    padding: 25px;
+}
+
+.iphone13proh3{
+    font-size: 25px;
+}
+
+
+/** two box **/
+#box1{
+    float: left;
+    text-align: center;
+    background-image: url("appleimages/watch7-large.jpeg");
+    background-repeat: no-repeat;
+    width: 49.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black; 
+    margin: 5px 5px 5px 0px;
+
+}
+#box2{
+    float: right;
+    text-align: center;
+    background-image: url("appleimages/airpods-model-large.jpeg");
+    background-repeat: no-repeat;
+    width: 49.5%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin:5px 0px 5px 5px;
+}
+#box1 img {
+    width: 15px;
+    margin-bottom: 1.5%;
+}
+#box1{
+    text-align: center;
+    font-size: 15px;
+
+}
+#box1 h6,h4{
+    text-align: center;
+    color: red;
+}
+#box2{
+   text-align: center;
+   position: relative;
+}
+#pods-bottom-text{
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform: translate(-50%, 0);
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#pods-bottom-text h1, h3{
+    color: #ffffff;
+}
+
+/* iapd & mac */
+
+#homepod{
+    float: left;
+    text-align: center;
+    background-image: url("appleimages/homepod-mini-large.jpg");
+    background-repeat: no-repeat;
+    width: 49.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black; 
+    margin:5px 5px 5px 0px;
+}
+
+#mac{
+    float: right;
+    text-align: center;
+    background-image: url("appleimages/macbook-pro-large.jpeg");
+    background-repeat: no-repeat;
+    width: 49.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black;
+    margin:5px 0px 5px 5px;
+}
+
+/* car&TV */
+
+#card{
+    float: left;
+    text-align: center;
+    background-image: url("appleimages/apple-card-large.jpg");
+    background-repeat: no-repeat;
+    width: 49.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black;
+    margin:5px 5px 10px 0px;
+}
+
+#tv{
+    float: right;
+    text-align: center;
+    background-image: url("appleimages/apple-tv-plus-large.jpg");
+    background-repeat: no-repeat;
+    width: 49.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+    margin:5px 0px 10px 5px;
+}
+
+#tv-bottom{
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform: translate(-50%, 0);
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logo-car-tv-tex{
+    margin-top: 20px;
+
+}
+#tv img{
+width: 15px;
+margin-bottom: 1.5%;
+}
+
+#card img {
+    margin-bottom: 1.5%;
+    width: 20px;
+}
+.paddings{
+    padding: 5px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(4deg);
+    }
+
+}
+
+/* query */
+
+@media screen and (max-width :1024px){
+   
+    body {
+        font-family: Helvetica;
+        padding-top: 5%;
+    }
+
+    #gift-sec {
+        background-color: #eeeffe;
+        height: 90vh;
+        margin-bottom: 5px;
+    }
+    
+    #iphone13pro {
+        text-align: center;
+        background-image: url(appleimages/iphone13-pro-large.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 94vh;
+        background-size: cover;
+        margin: 5px 0px 5px 0px;
+    }
+
+    #iphone13 {
+        text-align: center;
+        background-image: url(appleimages/iphone13-large.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 91vh;
+        background-size: cover;
+        color: white;
+        margin: 5px 0px 5px 0px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width :768px) {
+   
+    body {
+        font-family: Helvetica;
+        padding-top: 7%;
+    }
+
+    .gift-images img {
+        display: inline-block;
+        width: 188px;
+        padding: 20px;
+        animation: rotate 1.5s linear;
+        transform: rotate(
+    4deg);
+    }
+
+    #gift-sec {
+        background-color: #eeeffe;
+        height: 80vh;
+        margin-bottom: 5px;
+    }
+
+    #iphone13pro{
+        height: 93vh;
+    }
+
+    .iphonepadding {
+        font-size: 40px;
+    }
+    
+    #box1{
+        width: 100%;
+        height: 90vh;
+    }
+
+    #box2{
+        width: 100%;
+        height: 90vh;
+    }
+
+    #homepod{
+        width: 100%;
+        height: 90vh;
+    }
+
+    #mac{
+        width: 100%;
+        height: 90vh;
+    }
+
+    #card{
+        width: 100%;
+        height: 90vh;
+    }
+
+    #tv{
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    body{
+        padding-top: 13%;
+    }
+
+    #announcement{
+        width:110%;
+    }
+
+
+    #red-apple img{
+        width: 60px;
+    }
+
+    #red-apple h1 {
+        font-size: 25px;
+    }
+
+    .gift-images img {
+        width: 280px;
+    }
+
+    #gift-sec {
+        width: 110%;
+        height: 180vh;
+    }
+
+    #iphone13pro {
+        height: 100vh;
+        width: 110%;
+    }
+
+    #iphone13{
+        height: 100vh;
+        width: 110%;
+    }
+
+    #twobox{
+        width: 110%;
+    }
+
+    #box1{
+        height: 100vh;
+    }
+
+    #box2{
+        height: 100vh;
+    }
+
+    #homepod-mac{
+        width: 110%;
+    }
+
+    #homepod{
+        height: 100vh;
+    }
+
+    #mac{
+        height: 100vh;
+    }
+
+    #card-Tv{
+        width: 110%;
+    }
+
+    #card{
+        height: 100vh;
+    }
+
+    #tv{
+        height: 100vh;  
+    }
+    
+        
+
+}
+
+@media screen and (max-width: 375px) {
+    
+}
+
+@media screen and (max-width: 325px) {
+    
+}
